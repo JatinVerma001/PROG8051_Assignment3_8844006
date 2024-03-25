@@ -25,6 +25,8 @@ namespace PROG8051_Assignment3_8844006
         // Override method to display truck details
         public override void DisplayDetails()
         {
+            Console.WriteLine($"\nThe deatils for Truck are given below:");
+            Console.WriteLine($"--------------------------------------");
             base.DisplayDetails();
             Console.WriteLine($"Capacity: {Capacity}, Truck Type: {TruckType}, Four Wheel Drive: {(FourWheelDrive ? "Yes" : "No")}");
         }

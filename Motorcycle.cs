@@ -25,6 +25,8 @@ namespace PROG8051_Assignment3_8844006
         // Override method to display motorcycle details
         public override void DisplayDetails()
         {
+            Console.WriteLine($"\nThe deatils for MotorCycle are given below:");
+            Console.WriteLine($"-------------------------------------------");
             base.DisplayDetails();
             Console.WriteLine($"Engine Capacity: {EngineCapacity}, Fuel Type: {FuelType}, Has Fairing: {(HasFairing ? "Yes" : "No")}");
         }

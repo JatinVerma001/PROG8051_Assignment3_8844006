@@ -30,7 +30,7 @@ namespace PROG8051_Assignment3_8844006
             }
             else
             {
-                Console.WriteLine("Invalid index.");
+                Console.WriteLine("\nInvalid index.");
             }
         }
 
@@ -43,7 +43,7 @@ namespace PROG8051_Assignment3_8844006
             }
             else
             {
-                Console.WriteLine("Invalid index.");
+                Console.WriteLine("\nInvalid index.");
             }
         }
 
@@ -54,11 +54,13 @@ namespace PROG8051_Assignment3_8844006
             {
                 TotalRevenue += Fleet[index].RentalPrice;
                 Fleet[index] = null;
+                Console.WriteLine("\n============================");
                 Console.WriteLine("Vehicle rented successfully.");
+                Console.WriteLine("============================");
             }
             else
             {
-                Console.WriteLine("Invalid index or vehicle not available.");
+                Console.WriteLine("\nInvalid index or vehicle not available.");
             }
         }
     }

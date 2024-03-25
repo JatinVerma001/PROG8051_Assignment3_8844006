@@ -26,7 +26,7 @@ namespace PROG8051_Assignment3_8844006
         // Method to display vehicle details
         public virtual void DisplayDetails()
         {
-            Console.WriteLine($"Model: {Model}, Manufacturer: {Manufacturer}, Year: {Year}, Rental Price: {RentalPrice:C}");
+            Console.WriteLine($"Vehicle Model: {Model}, Manufacturer: {Manufacturer}, Year: {Year}, Rental Price: {RentalPrice:C}");
         }
     }
 }

@@ -27,6 +27,8 @@ namespace PROG8051_Assignment3_8844006
         // Override method to display car details
         public override void DisplayDetails()
         {
+            Console.WriteLine($"The deatils for Car are given below:");
+            Console.WriteLine($"------------------------------------");
             base.DisplayDetails();
             Console.WriteLine($"Seats: {Seats}, Engine Type: {EngineType}, Transmission: {Transmission}, Convertible: {(Convertible ? "Yes" : "No")}");
         }
