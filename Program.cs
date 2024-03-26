@@ -27,7 +27,7 @@ public class Program
         agency.RentVehicle(1);
 
         // Displaying total revenue
-        Console.WriteLine($"\n------------------------");
-        Console.WriteLine($"Total Revenue: {agency.TotalRevenue:C}");
+        Console.WriteLine($"\n-----------------------------");
+        Console.WriteLine($"Total Revenue generated: {agency.TotalRevenue}");
     }
 }
